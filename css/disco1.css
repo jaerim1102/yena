@@ -1,0 +1,103 @@
+body {
+    width: 1920px;
+    height: 3693px;
+    background-color: rgba(65, 19, 108, 0.19);
+}
+.bg{
+    z-index: -1;
+    position: absolute;
+    width: 1872px;
+    margin-top: 50px;
+}
+header ul img{
+    width: 256.22;
+    height: 147.48;
+    margin-top: 13.15px;
+    margin-left: 35px;
+}
+
+header ul {
+    list-style: none; /* 목록 마커(불릿) 숨기기 */
+    display: flex;
+}
+header ul div{
+    display: flex;
+    margin-left: 350px;
+}
+header ul div li{
+    padding: 33px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.disco{
+    color: #451771;
+    font-weight:bolder;
+}
+.main{
+    text-align: center;
+}
+.main p{
+    text-align: center;
+    margin-top: 10px;
+}
+.main .p1{
+    font-size: 35px;
+}
+.main .p2{
+    color: #451771;
+    font-weight:bolder;
+    margin-top: -30px;
+    font-size: 40px;
+}
+.main .track{
+    margin-top: 300px;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 수직 가운데 정렬 */
+    margin-top: 43px;
+}
+.main1 img{
+    padding: 68px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.v1{
+    margin-top: 314px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 수직 가운데 정렬 */
+}
+
+.v1 video{
+    width: 450px;
+    border-radius: 70px;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+#popup img {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    max-width: 1277px;
+    max-height: 541.01px;
+}

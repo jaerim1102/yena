@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/disco2.css">
+    <title>Smart Phone</title>
+</head>
+<body>
+    <img src="img/bg2.png" class="bg">
+    <header>
+        <ul>
+            <img src="img/logo.png">
+            <div>
+                <li>INFO</li>
+                <li><a href="calender.html">CALENDER</a></li>
+                <li>NOTICE</li>
+                <li class="disco">DISCOGRAPHY</li>
+                <li>GOODS</li>
+                <li>JIGUMI</li>
+            </div>
+        </ul>
+    </header>
+    <div class="main">
+        <div class="main1">
+            <a href="disco1.html"><img src="img/lovewar1.png" class="mini"></a>
+            <img src="img/smartphone1.png">
+            <a href="disco3.html"><img src="img/smiley.png" class="mini"></a>
+        </div>
+        <p class="p1">2ND MINI ALBUM</p>
+        <p class="p2">[SMARTPHONE]</p>
+        <img class="track" src="img/track2.png">
+    </div>
+    <div class="v1" onclick="showPopup('img/popup2.png')">
+        <video autoplay loop muted>
+            <source src="video/smartphone 2.mp4" type="video/mp4">
+            <!-- 웹 브라우저에서 지원하는 다른 동영상 형식을 추가할 수 있습니다. -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div id="popup" onclick="closePopup()">
+        <span id="closeBtn" onclick="closePopup()">&times;</span>
+        <img id="popupImage" src="img/popup2.png" alt="팝업 이미지">
+    </div>
+</body>
+<script>
+    function showPopup(imgSrc) {
+        console.log("imgSrc:", imgSrc); // 디버깅을 위해 imgSrc를 콘솔에 출력
+    
+        // 팝업 이미지 설정
+        document.getElementById('popupImage').src = imgSrc;
+        // 팝업 보이기
+        document.getElementById('popup').style.display = 'block';
+    }
+    
+        // 팝업을 닫는 함수
+        function closePopup() {
+            // 팝업 감추기
+            document.getElementById('popup').style.display = 'none';
+        }
+    </script>
+</html>

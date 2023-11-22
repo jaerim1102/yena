@@ -1,0 +1,47 @@
+body {
+    width: 1920px;
+    height: 1080px;
+}
+
+header ul img{
+    width: 256.22;
+    height: 147.48;
+    margin-top: 82px;
+    margin-left: 89px;
+}
+
+header ul {
+    list-style: none; /* 목록 마커(불릿) 숨기기 */
+    display: flex;
+}
+header ul div{
+    display: flex;
+    margin-left: 300px;
+}
+header ul div li{
+    padding: 33px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.disco{
+    color: #FF227C;
+    font-weight:bolder;
+}
+
+.calender img{
+    z-index: -1;
+    position: absolute;
+    top: 81px;
+    left: 67px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
