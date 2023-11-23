@@ -1,0 +1,113 @@
+body {
+    width: 1920px;
+    height: 1080px;
+}
+
+header ul img{
+    width: 256.22;
+    height: 147.48;
+    margin-top: 82px;
+    margin-left: 89px;
+}
+
+header ul {
+    list-style: none; /* 목록 마커(불릿) 숨기기 */
+    display: flex;
+}
+header ul div{
+    display: flex;
+    margin-left: 300px;
+}
+header ul div li{
+    padding: 33px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.disco{
+    color: #FF227C;
+    font-weight:bolder;
+}
+
+.calender img{
+    z-index: -1;
+    position: absolute;
+    top: 81px;
+    left: 67px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.c4{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 212px;
+    margin-left: 220px;
+    padding-bottom: 11px;
+}
+
+.c41{
+    margin-left: 12px;
+    background-color: #FFD9DB;
+}
+
+.c42{
+    background-color: #FFEAC2;
+}
+.c43{
+    margin-left: 37px;
+    background-color: #E8FBB4;
+}
+
+.c44{
+    position: absolute;
+    font-size: 15px;
+}
+.c45{
+    position: relative;
+    margin-top: 620px;
+    left: 463px;
+    background-color: #FFD9DB;
+}
+
+.c46{
+    position: absolute;
+    font-size: 15px;
+}
+.c47{
+    position: relative;
+    margin-top: 620px;
+    left: 1090px;
+    background-color: #FFD9DB;
+}
+.c48{
+    position: absolute;
+    font-size: 15px;
+}
+.c49{
+    position: relative;
+    margin-top: 620px;
+    left: 1350px;
+    background-color: #FFD9DB;
+}
+.c3{
+    position: absolute;
+    margin-left: 898px;
+    margin-top: -130px;
+}
+h1{
+    font-size: 40px;
+}
+h1 i{
+    font-size: 130px;
+    padding-right: 21px;
+    font-weight: 900;
+}
